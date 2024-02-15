@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+.plans-container{
+    display: block;
+    justify-content: space-between;
+    color: #3a3d45;
+    margin-bottom: 30px;
+}
+
+.plans-title{
+    margin: 0 auto 60px;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    justify-content: center;
+}
+
+.plans-header{
+    color: rgb(46, 42, 42);
+    font-weight: bolder;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.plans-paragraph{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.plans-packages{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+.plans{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    max-width: 330px;
+    height: 760px;
+}
+.plans h3{
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.plans li{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.plans-checkmark{
+    color: rgb(30, 207, 30);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.premium{
+    border-color: #f14646;
+}
+
+.plans-price span{
+    color: #4f5665;
+    font-weight: lighter;
+}
+
+.plans-button{
+    background-color: #fff;
+    color: #f53838;
+    font-weight: 500;
+    border: 1px solid #f53838;
+    border-radius: 1000px;
+    padding: 0.7rem 3rem;
+    margin-top: 6%;
+}
+
+.plans-button:hover{
+    background-color: #f53838;
+    color: #fff;
+    transition: 0.5s;
+}
