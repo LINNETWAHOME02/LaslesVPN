@@ -1,4 +1,4 @@
-# Lasles Landing Page Project
+# LaslesVPN Landing Page Project
 
 ## React + Vite
 
